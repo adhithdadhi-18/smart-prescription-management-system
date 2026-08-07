@@ -1,0 +1,295 @@
+/* ==========================
+   SMART PRESCRIPTION SYSTEM
+========================== */
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:'Poppins',sans-serif;
+}
+
+body{
+    background:#f4f7fb;
+}
+
+/* Cards */
+
+.card{
+    border:none;
+    border-radius:18px;
+    box-shadow:0 10px 30px rgba(0,0,0,.08);
+}
+
+/* Buttons */
+
+.btn{
+    border-radius:50px;
+    font-weight:500;
+    transition:.3s;
+}
+
+.btn:hover{
+    transform:translateY(-3px);
+}
+
+/* Inputs */
+
+.form-control,
+.form-select{
+    border-radius:12px;
+    padding:12px;
+}
+
+.form-control:focus,
+.form-select:focus{
+    border-color:#0d6efd;
+    box-shadow:0 0 12px rgba(13,110,253,.2);
+}
+
+/* Tables */
+
+.table{
+    border-radius:15px;
+    overflow:hidden;
+}
+
+.table thead{
+    background:#0d6efd;
+    color:white;
+}
+
+.table tbody tr:hover{
+    background:#eef5ff;
+}
+
+/* Sidebar */
+
+.nav-link{
+
+    border-radius:10px;
+
+    padding:12px 15px;
+
+    transition:.3s;
+
+    font-weight:500;
+
+}
+
+.nav-link:hover{
+
+    background:rgba(255,255,255,.18);
+
+    padding-left:22px;
+
+    color:white !important;
+
+}
+
+.nav-link i{
+
+    width:25px;
+
+    text-align:center;
+
+}
+
+/* Dashboard Cards */
+
+.dashboard-card{
+
+border:none;
+
+border-radius:20px;
+
+box-shadow:0 15px 30px rgba(0,0,0,.15);
+
+transition:.35s;
+
+cursor:pointer;
+
+color:white;
+
+}
+
+.dashboard-card:hover{
+
+transform:translateY(-8px);
+
+box-shadow:0 20px 40px rgba(0,0,0,.25);
+
+}
+
+/* ===================================
+   Dashboard Banner
+=================================== */
+
+.dashboard-banner{
+
+background:linear-gradient(135deg,#2563eb,#1e40af);
+
+border-radius:25px;
+
+padding:40px;
+
+color:white;
+
+box-shadow:0 20px 40px rgba(37,99,235,.25);
+
+margin-bottom:35px;
+
+}
+
+.dashboard-banner h2{
+
+font-size:32px;
+
+font-weight:700;
+
+margin-bottom:0;
+
+}
+
+.dashboard-banner h4{
+
+font-weight:500;
+
+}
+
+.dashboard-banner p{
+
+margin-top:10px;
+
+opacity:.9;
+
+font-size:17px;
+
+}
+
+.dashboard-banner .fa-calendar-days{
+
+font-size:22px;
+
+margin-right:8px;
+
+}
+/* ===== Dashboard Statistics Card ===== */
+
+.dashboard-stat{
+
+border:none;
+
+border-radius:20px;
+
+background:#fff;
+
+box-shadow:0 12px 30px rgba(0,0,0,.08);
+
+transition:.3s;
+
+overflow:hidden;
+
+}
+
+.dashboard-stat:hover{
+
+transform:translateY(-6px);
+
+box-shadow:0 18px 35px rgba(0,0,0,.12);
+
+}
+
+.stat-title{
+
+font-size:16px;
+
+font-weight:600;
+
+color:#6b7280;
+
+margin-bottom:10px;
+
+}
+
+.stat-number{
+
+font-size:42px;
+
+font-weight:700;
+
+color:#111827;
+
+margin-bottom:8px;
+
+}
+
+.stat-text{
+
+font-size:14px;
+
+color:#9ca3af;
+
+margin:0;
+
+}
+
+.stat-icon{
+
+width:65px;
+
+height:65px;
+
+border-radius:16px;
+
+display:flex;
+
+align-items:center;
+
+justify-content:center;
+
+font-size:28px;
+
+color:white;
+
+}
+.overview-card{
+    margin-top:30px;
+    padding:25px;
+    background:#fff;
+    border:1px solid #e7eef8;
+    border-radius:18px;
+    box-shadow:0 10px 26px rgba(31,69,113,.08);
+}
+
+.overview-title{
+    margin:0 0 8px;
+    font-size:20px;
+    font-weight:700;
+    color:#172033;
+}
+
+.overview-text{
+    margin-bottom:20px;
+    color:#64748b;
+    font-size:14px;
+}
+
+.overview-item{
+    padding:14px 0;
+    border-bottom:1px solid #edf2f7;
+}
+
+.overview-item:last-child{
+    border-bottom:none;
+}
+
+.overview-item span{
+    color:#64748b;
+}
+
+.overview-item strong{
+    color:#172033;
+}
